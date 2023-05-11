@@ -1,6 +1,6 @@
 @GenericGenerator(
-    name = "dimata_id_gen",
-    strategy = "com.dimata.service.general.prochainx.core.id.IdConfig"
+    name = "gusanta_id_gen",
+    strategy = "com.acme.suryayasaantariksa.quarkus.general.shopapp.core.id.IdConfig"
 )
 package com.acme.suryayasaantariksa.quarkus.general.shopapp.core;
 
