@@ -2,6 +2,8 @@ quarkus:
   log:
     level: INFO
   http:
+    cors:
+      ~: true
     port: 8123
   datasource:
     db-kind: mysql
