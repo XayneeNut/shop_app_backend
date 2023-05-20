@@ -23,7 +23,7 @@ public class CategoryHandler {
     }
 
     public CategoryEntity updateCategoryEntity(CategoryEntity entity) {
-        var validatingId = getCategoryEntityById(entity.id);
+        var validatingId = getCategoryEntityById(entity.categoryId);
         entity.updateCategoryEntity(validatingId);
         return validatingId;
     }

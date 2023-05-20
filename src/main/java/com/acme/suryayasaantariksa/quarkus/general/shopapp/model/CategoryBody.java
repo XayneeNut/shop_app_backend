@@ -3,7 +3,7 @@ package com.acme.suryayasaantariksa.quarkus.general.shopapp.model;
 import com.acme.suryayasaantariksa.quarkus.general.shopapp.entity.CategoryEntity;
 
 public record CategoryBody(
-    Long id,
+    Long categoryId,
     String name,
     String color
 ) {

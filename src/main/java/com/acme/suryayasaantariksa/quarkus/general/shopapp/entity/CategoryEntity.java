@@ -21,7 +21,7 @@ public class CategoryEntity extends PanacheEntityBase{
     @Id
     @GeneratedValue(generator = "gusanta_id_gen")
     @Column(name = "category_id")
-    public Long id;
+    public Long categoryId;
 
     @Column(name = "name")
     public String name;

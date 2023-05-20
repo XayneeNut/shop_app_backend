@@ -3,7 +3,7 @@ package com.acme.suryayasaantariksa.quarkus.general.shopapp.model;
 import com.acme.suryayasaantariksa.quarkus.general.shopapp.entity.ItemListEntity;
 
 public record ItemListBody(
-        Long id,
+        Long itemListId,
         String name,
         Integer quantity,
         Long categoryEntityId) {

@@ -29,14 +29,14 @@ public class ItemListHandler {
     }
 
     private ItemListEntity checkingWithUpdate(ItemListEntity entity, CategoryEntity categoryEntity) {
-        var itemList = getItemListEntityById(entity.id);
+        var itemList = getItemListEntityById(entity.itemListId);
         itemList.categoryEntity = categoryEntity;
         entity.updateItemListEntity(itemList);
         return itemList;
     }
 
     public ItemListEntity updateItemListEntity(ItemListEntity entity) {
-        var category = fetchCategoryEntity(entity.categoryEntity.id);
+        var category = fetchCategoryEntity(entity.categoryEntity.categoryId);
         return checkingWithUpdate(entity, category);
     }
 

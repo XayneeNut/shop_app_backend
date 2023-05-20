@@ -22,7 +22,7 @@ public class ItemListEntity extends PanacheEntityBase{
     @Id
     @GeneratedValue(generator = "gusanta_id_gen")
     @Column(name = "item_list_id")
-    public Long id;
+    public Long itemListId;
 
     @Column(name = "name")
     public String name;
